@@ -8,11 +8,8 @@ const countryController = require('../controller/countryController');
     'get': async (res) => res.end( JSON.stringify( await countryController.getAll() )),
  };
 
-module.exports = router;
-
 /**
  * 2. A module az előző pontnál elkészített router objektumot adja vissza.
  */
  
  module.exports = router;
- 
