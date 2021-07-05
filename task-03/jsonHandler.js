@@ -17,7 +17,7 @@
   */
  const getList = async () => {
     const content = await fsp.readFile(jsonPath, 'utf8');
-    return JSON.parse(content); // string -> array
+    return JSON.parse(content);
  };
 
 /**
